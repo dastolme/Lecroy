@@ -12,7 +12,7 @@ This repository contains code for interacting with a Lecroy scope.
 
 The code in this repository is designed to interact with a Lecroy scope for data acquisition.
 
-- `lecroy_start.py`: Use this script in the Midas sequencer to start data taking. It opens the connection with the Lecroy scope, provided the IP address, and it recalls a setup, provided its path. Then, it sets a directory to save the outputs before disconnecting.
+- `lecroy_start.py`: Use this script in the Midas sequencer to start data taking. It opens the connection with the Lecroy scope, provided the IP address, and it recalls a setup, provided its path. Then, it sets a directory (remember to create it in advance) to save the outputs before disconnecting.
 - `lecroy_finish.py`: Use this script in the Midas sequencer to finish data taking. It opens the connection with the Lecroy scope in order to disable the autosave mode.
 
 ## Linking to Local Repository
